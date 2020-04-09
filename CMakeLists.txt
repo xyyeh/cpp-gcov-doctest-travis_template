@@ -49,7 +49,7 @@ set(LIBRARY_NAME engine)  # Default name for the library built from src/*.cpp (c
 #                            Build! (Change as needed)
 # --------------------------------------------------------------------------------
 # Compile all sources into a library.
-add_library(${LIBRARY_NAME} OBJECT ${SOURCES})
+add_library(${LIBRARY_NAME} ${SOURCES})
 
 # Lib needs its header files, and users of the library must also see these (PUBLIC). (No change needed)
 target_include_directories(${LIBRARY_NAME} PUBLIC ${PROJECT_SOURCE_DIR}/include)
