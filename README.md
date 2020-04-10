@@ -1,8 +1,8 @@
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
-[![Build Status](https://travis-ci.org/xyyeh/bullet_physics_simulator.svg?branch=master)](https://travis-ci.org/xyyeh/bullet_physics_simulator)
-[![codecov](https://codecov.io/gh/xyyeh/bullet_physics_simulator/branch/master/graph/badge.svg)](https://codecov.io/gh/xyyeh/bullet_physics_simulator)
+[![Build Status](https://travis-ci.org/xyyeh/cpp-gcov-doctest-travis_template.svg?branch=master)](https://travis-ci.org/xyyeh/cpp-gcov-doctest-travis_template)
+[![codecov](https://codecov.io/gh/xyyeh/cpp-gcov-doctest-travis_template/branch/master/graph/badge.svg)](https://codecov.io/gh/xyyeh/cpp-gcov-doctest-travis_template)
 
-# Simulator based on bullet physics
+# Template project
 
 This repository contains a simple interface to allow external controllers to connect to bullet physics via shared memory. A synchronization semaphore is provided in order to provide a timer tick to the controller.
 
